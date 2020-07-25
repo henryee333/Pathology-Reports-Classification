@@ -88,7 +88,7 @@ populate_repo() {{
         git add .gitignore README.md; \
         git -c user.email=nobody -c user.name=Datalab \
           commit --message='Set up initial notebook repo.'; \
-        git push origin master; \
+        git push origin main; \
     "
 }}
 
